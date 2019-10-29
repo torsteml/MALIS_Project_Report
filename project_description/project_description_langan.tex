@@ -1,9 +1,15 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{url}
+\usepackage{float}
+\usepackage[margin=1.3in]{geometry}
+
+\setlength{\droptitle}{-10em}
 
 \title{Project definition\\MALIS}
 \author{Torstein Mellingen Langan}
-\date{October 2019}
+\date{November 2019}
 
 \begin{document}
 
@@ -19,8 +25,9 @@
 
 \section*{Data}
 \label{sec:data}
-\input{data}
+\input{data.tex}
 
-
+\bibliography{biblio}{}
+\bibliographystyle{plain}
 
 \end{document}
