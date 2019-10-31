@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage{url}
+\usepackage{float}
+\usepackage{graphicx}
+
+\usepackage{titling}
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+
+\title{Semester project\\MALIS}
+\author{Torstein Mellingen Langan}
+\date{January 2020}
+
+\begin{document}
+\pagenumbering{roman}
+
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\textsc{\LARGE}\\[1.5cm]
+\textsc{\Large MALIS}\\[0.5cm]
+\HRule \\[0.4cm]
+{ \huge \bfseries Prototyping of a clustering based recommendation engine for user suggestions}\\[0.4cm]
+\HRule \\[1.5cm]
+\emph{Author:}\\
+Torstein Langan\\[2cm]
+{\large \today}\\[2cm]
+\includegraphics[scale=0.2]{illustrations/logos/EURECOM_logo.jpg}\\[1cm]
+\vfill
+\end{titlepage}
+
+\input{tex_files/abstract.tex}
+
+\newpage{}
+\tableofcontents
+\newpage{}
+
+\section{Introduction}
+\label{sec:introduction}
+\input{tex_files/introduction.tex}
+
+\section{Problem Definition and Algorithm}
+\subsection{Task Definition}
+
+\section{Experimental Evaluation}
+
+\section{Future Work}
+
+\section{Conclusion}
+
+
+\bibliography{biblio}{}
+\bibliographystyle{plain}
+
+\end{document}
